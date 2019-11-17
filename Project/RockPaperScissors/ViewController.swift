@@ -50,6 +50,8 @@ class ViewController: UIViewController {
 //        }
 //    }
     
+  
+    
     
     @IBAction func rock(_ sender: Any) {
         let random = randomSign()
@@ -110,6 +112,7 @@ class ViewController: UIViewController {
         userScore.text = String(userCountScore)
         compScore.text = String(compCountScore)
         result.text = GameState.start.actionGameState()
+        computerChoice.text = "🎃"
     }
     
     @IBAction func extendedGameButton(_ sender: Any) {

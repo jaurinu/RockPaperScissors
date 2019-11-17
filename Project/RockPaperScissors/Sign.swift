@@ -9,16 +9,28 @@
 import Foundation
 import GameplayKit
 
-let extended = false
+var extended = false
+//var randomChoice = Float()
+
+//var highestValue = Int()
+//
+//func randomNumber (){
+//    if extended == false {
+//        highestValue = 2
+//    }else{
+//        highestValue = 4
+//    }
+//}
+
 
 //func randomNumber  (){
 //    if extended == false {
-//        GKRandomDistribution(lowestValue: 0, highestValue: 2)
+//        randomChoice = GKRandomDistribution(lowestValue: 0, highestValue: 2)
 //    }else {
 //        GKRandomDistribution(lowestValue: 0, highestValue: 4)
 //    }
 //}
-//let randomChoice = randomNumber()
+//let randomChoice = randomNumber().nextInt()
 
 let randomChoice = GKRandomDistribution(lowestValue: 0, highestValue: 4)
 
