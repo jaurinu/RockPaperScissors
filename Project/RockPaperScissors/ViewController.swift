@@ -119,10 +119,12 @@ class ViewController: UIViewController {
         if mylizard.isHidden == true {
             mylizard.isHidden = false
             myspock.isHidden = false
+            extended = true
             extendedGame.setTitle("Traditional game", for: .normal)
         }else{
             mylizard.isHidden = true
             myspock.isHidden = true
+            extended = false
             extendedGame.setTitle("Extended game", for: .normal)
         }
     }

@@ -10,32 +10,18 @@ import Foundation
 import GameplayKit
 
 var extended = false
-//var randomChoice = Float()
 
-//var highestValue = Int()
-//
-//func randomNumber (){
-//    if extended == false {
-//        highestValue = 2
-//    }else{
-//        highestValue = 4
-//    }
-//}
-
-
-//func randomNumber  (){
-//    if extended == false {
-//        randomChoice = GKRandomDistribution(lowestValue: 0, highestValue: 2)
-//    }else {
-//        GKRandomDistribution(lowestValue: 0, highestValue: 4)
-//    }
-//}
-//let randomChoice = randomNumber().nextInt()
-
-let randomChoice = GKRandomDistribution(lowestValue: 0, highestValue: 4)
+let randomChoice = GKRandomDistribution(lowestValue: 0, highestValue: 2)
+let randomChoiceExtended = GKRandomDistribution(lowestValue: 0, highestValue: 4)
 
 func randomSign() -> Sign {
-    let sign = randomChoice.nextInt()
+    var sign = -1
+    if extended == false {
+        sign = randomChoice.nextInt()
+    } else {
+        sign = randomChoiceExtended.nextInt()
+    }
+    
     if sign == 0 {
         return .rock
     }else if sign == 1 {
