@@ -80,6 +80,7 @@ class ViewController: UIViewController {
         computerChoice.text = random.SignValue
         let userChoice = Sign.scissors
         let checkGame = userChoice.makeYourMove(sign: random)
+        print(userChoice)
         result.text = "\(userChoice) vs. \(random) . \(checkGame.actionGameState())"
         userScore.text = String(userCountScore)
         compScore.text = String(compCountScore)

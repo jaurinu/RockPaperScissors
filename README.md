@@ -9,6 +9,12 @@
 
 ![logo](images/logo.png)
 
+![rps_1](https://raw.githubusercontent.com/jaurinu/RockPaperScissors/master/images/rps_1.png)
+
+![rps_2](https://raw.githubusercontent.com/jaurinu/RockPaperScissors/master/images/rps_2.png)
+
+![rps_3](https://raw.githubusercontent.com/jaurinu/RockPaperScissors/master/images/rps_3.png)
+
 ### 1. Preámbulo: ¿Cómo diseñar una app?
 
 El mundo de las apps está lleno de ideas revolucionarias que pueden ser tan sencillas y tan complejas como uno quiera, pero siempre deben pasar por un ciclo de diseño sin importar la complejidad. Hay cuatro fases principales a la hora de diseña una app.
